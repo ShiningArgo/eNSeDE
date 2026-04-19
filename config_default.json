@@ -1,0 +1,29 @@
+{
+    "dark_on_light": true,
+    "auto_contrast": true,
+    "use_adaptive": true,
+    "use_otsu": true,
+    "manual_thresh": 127,
+    "brightness": 50,
+    "contrast": 100,
+    "gamma": 609,
+    "return_bgr": false,
+    "blur_ksize": 7,
+    "adapt_blocksize": 179,
+    "adapt_C": 23,
+    "dilate_kernel": [
+        3,
+        7
+    ],
+    "dilate_iterations": 3,
+    "close_kernel": [
+        7,
+        7
+    ],
+    "erode_kernel": [
+        3,
+        3
+    ],
+    "erode_iterations": 1,
+    "global_rotation": 0
+}
