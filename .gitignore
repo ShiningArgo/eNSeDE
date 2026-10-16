@@ -2,7 +2,7 @@
 .idea/
 __pycache__/
 build/
-dist/
+dist/eNSeDE/_internal/
 *.spec
 config.json
 segments_map.json
