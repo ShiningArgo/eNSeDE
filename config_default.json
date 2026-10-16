@@ -1,29 +1,19 @@
 {
     "dark_on_light": true,
-    "auto_contrast": true,
-    "use_adaptive": true,
-    "use_otsu": true,
-    "manual_thresh": 127,
-    "brightness": 50,
+    "brightness": 100,
     "contrast": 100,
-    "gamma": 609,
+	"gamma": 100,
     "return_bgr": false,
-    "blur_ksize": 7,
+    "blur_ksize": 25,
     "adapt_blocksize": 179,
     "adapt_C": 23,
-    "dilate_kernel": [
-        3,
-        7
-    ],
-    "dilate_iterations": 3,
-    "close_kernel": [
-        7,
-        7
-    ],
-    "erode_kernel": [
-        3,
-        3
-    ],
+    "dilate_kernel": [3, 7],
+    "dilate_iterations": 4,
+    "close_kernel": [7, 7],
+    "erode_kernel": [3, 3],
     "erode_iterations": 1,
-    "global_rotation": 0
+	"auto_contrast": false,
+    "use_adaptive": false,
+    "use_otsu": true,
+    "manual_thresh": 185
 }
